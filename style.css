@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#041b3d, #0077b6, #00b4d8);
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+
+/* Main title */
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.intro {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+
+/* Ocean button */
+
+#color-btn {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+
+
+/* Shark cards */
+
+.shark-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+
+/* Card design */
+
+.card {
+    width: 280px;
+    min-height: 300px;
+    padding: 25px;
+    border-radius: 20px;
+    color: #102a43;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+
+    transition: transform 0.3s;
+}
+
+
+/* Card hover */
+
+.card:hover {
+    transform: translateY(-12px);
+}
+
+
+/* Different shark colors */
+
+.white {
+    background-color: #eaf6ff;
+}
+
+.hammer {
+    background-color: #dff7ff;
+}
+
+.whale {
+    background-color: #c8f7e8;
+}
+
+.tiger {
+    background-color: #fff0c2;
+}
+
+.mako {
+    background-color: #e5d9ff;
+}
+
+.goblin {
+    background-color: #ffd6e0;
+}
+
+
+/* Shark names */
+
+.card h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+
+/* Shark descriptions */
+
+.card p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+
+/* Learn More buttons */
+
+.learn-btn {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+
+/* Learn More hover */
+
+.learn-btn:hover {
+    background-color: #003f88;
+}
+
+
+/* Bottom message */
+
+.bottom-text {
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
